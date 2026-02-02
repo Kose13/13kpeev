@@ -1,0 +1,29 @@
+{
+  "date": "2026-02-03",
+  "hours": [
+    {"hour": 0, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 1, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 2, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 3, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 4, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 5, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 6, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 7, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 8, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 9, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 10, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 11, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 12, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 13, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 14, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 15, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 16, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 17, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 18, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 19, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 20, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 21, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 22, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"},
+    {"hour": 23, "temp_c": "__", "wind_kmh": "__", "precip_mm": "__", "cloud_pct": "__"}
+  ]
+}
