@@ -1,0 +1,83 @@
+X:1
+T:Честит 60-ти Рожден Ден - Силен Джаз (Big Band Style)
+M:4/4
+L:1/8
+Q:180
+K:Cmaj
+%%MIDI program 1 56  % Trumpet
+%%MIDI program 2 57  % Tenor Sax
+%%MIDI program 3 58  % Alto Sax
+%%MIDI program 4 60  % Piano
+%%MIDI program 5 33  % Bass
+%%MIDI program 6 118 % Drum Set
+
+% Intro (4 bars) - Full band hit
+V:1 clef=treble
+V:2 clef=treble
+V:3 clef=treble
+V:4 clef=treble
+V:5 clef=bass
+V:6 clef=perc
+
+% Trumpet melody
+V:1
+|: z8 | z8 | c4 e g c | e2 d c B | A4 F A d | c2 B A G | F4 D F A | d2 c B A |
+  G4 E G c | c2 z z4 | c4 e g c | e2 d c B | A4 F A d | c2 B A G | F2 D F A | d2 c B A |
+
+% Tenor Sax harmony
+V:2
+|: z8 | z8 | e4 g c' e | g2 f e d | c4 A c e | d2 c B A | B4 G B d | e2 d c B |
+  A4 F A c | c2 z z4 | e4 g c' e | g2 f e d | c4 A c e | d2 c B A | B2 G B d | e2 d c B |
+
+% Piano chords
+V:4
+|: z8 | z8 | "^C7"C,E,G,c | "^F7"F,A,c,f | "^Dm7"D,F,A,d | "^G7"G,B,d,g | "^C7"C,E,G,c | "^F7"F,A,c,f |
+  "^C7"C,E,G,c | "^G7"G,B,d,g | "^C7"C,E,G,c | "^F7"F,A,c,f | "^Dm7"D,F,A,d | "^G7"G,B,d,g | "^C7"C,E,G,c | "^F7"F,A,c,f |
+
+% Bass line
+V:5
+|: z8 | z8 | C,2 E, G, C | F,2 A, C F | D,2 F, A, D | G,2 B, D G | C,2 E, G, C | F,2 A, C F |
+  C,2 E, G, C | G,2 B, D G | C,2 E, G, C | F,2 A, C F | D,2 F, A, D | G,2 B, D G | C,2 E, G, C | F,2 A, C F |
+
+% Drum pattern (simplified)
+V:6
+|: [F,^C,][F,^C,] [F,^C,][F,^C,] | [F,^C,][F,^C,] [F,^C,][F,^C,] | [F,^C,][F,^C,] [F,^C,][F,^C,] | [F,^C,][F,^C,] [F,^C,][F,^C,] |
+
+% Bridge - More energetic
+V:1
+G4 B d g | f2 e d c | B4 d f b | a2 g f e | d4 f a d | c2 B A G | F4 A c f | e2 d c B |
+
+V:2
+B4 d f b | a2 g f e | d4 f a d | c2 B A G | F4 A c f | e2 d c B | A4 c e g | f2 e d c |
+
+V:4
+"^G7"G,B,d,g | "^C7"C,E,G,c | "^F7"F,A,c,f | "^Bb7"Bb,d,f,b | "^Dm7"D,F,A,d | "^G7"G,B,d,g | "^C7"C,E,G,c | "^F7"F,A,c,f |
+
+V:5
+G,2 B, D G | C,2 E, G, C | F,2 A, C F | Bb,2 D F Bb | D,2 F, A, D | G,2 B, D G | C,2 E, G, C | F,2 A, C F |
+
+% Final chorus - Big finish
+V:1
+c4 e g c | e2 d c B | A4 F A d | c2 B A G | F4 D F A | d2 c B A | G4 E G c | c2 z z4 |
+
+V:2
+e4 g c' e | g2 f e d | c4 A c e | d2 c B A | B4 G B d | e2 d c B | A4 F A c | c2 z z4 |
+
+V:4
+"^C7"C,E,G,c | "^F7"F,A,c,f | "^Dm7"D,F,A,d | "^G7"G,B,d,g | "^C7"C,E,G,c | "^F7"F,A,c,f | "^C7"C,E,G,c | "^G7"G,B,d,g |
+
+V:5
+C,2 E, G, C | F,2 A, C F | D,2 F, A, D | G,2 B, D G | C,2 E, G, C | F,2 A, C F | C,2 E, G, C | G,2 B, D G |
+
+% Outro - Fade out
+V:1
+c8 | z8 | z8 | z8 ||
+
+V:2
+c8 | z8 | z8 | z8 ||
+
+V:4
+"^C7"C,E,G,c | z8 | z8 | z8 ||
+
+V:5
+C,8 | z8 | z8 | z8 ||
