@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3A7BD5" />
+      <stop offset="100%" stop-color="#00d2ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1320" cy="160" r="180" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="280" cy="760" r="220" fill="rgba(255,255,255,0.08)"/>
+  <text x="100" y="180" fill="white" font-size="64" font-family="Arial, sans-serif" font-weight="700">Спа хотел Костенец</text>
+  <text x="100" y="260" fill="white" font-size="42" font-family="Arial, sans-serif" opacity="0.95">7–8 март 2026 • Уикенд книга</text>
+  <text x="100" y="820" fill="white" font-size="28" font-family="Arial, sans-serif" opacity="0.75">Spa Hotel Kostenets Storybook • 16:9</text>
+</svg>
