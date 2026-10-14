@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертирай Джаз Нотите в Музика</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        h1 {
+            color: #8B0000;
+            font-size: 2em;
+        }
+        .button {
+            display: inline-block;
+            background-color: #FF8C00;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin: 20px 10px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #FF4500;
+        }
+        .instructions {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: left;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .abc-content {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            white-space: pre;
+            text-align: left;
+            max-height: 300px;
+            overflow-y: auto;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎺 Честит 60-ти Рожден Ден - Джаз Конвертор</h1>
+    
+    <p style="font-size: 1.2em; margin: 20px 0;">
+        Изберете метод за конвертиране на нотите в музика:
+    </p>
+    
+    <div style="margin: 30px 0;">
+        <a href="https://www.mandolintab.net/abctab2midi.php" class="button" target="_blank">
+            🎵 Конвертор 1: ABC → MIDI/WAV
+        </a>
+        <a href="https://abcjs.net/abcjs-editor.html" class="button" target="_blank">
+            🎼 Конвертор 2: ABC Editor
+        </a>
+    </div>
+    
+    <div class="instructions">
+        <h2>📝 Инструкции:</h2>
+        <ol>
+            <li>Кликнете на един от бутоните по-горе, за да отворите онлайн конвертор</li>
+            <li>Копирайте нотите от долния блок</li>
+            <li>Поставете ги в конвертора</li>
+            <li>Изберете изходен формат (MIDI или WAV)</li>
+            <li>Изтеглете генерирания музикален файл</li>
+            <li>Комбинирайте с <strong>birthday_message_bg.mp3</strong> в Audacity</li>
+        </ol>
+    </div>
+    
+    <h2>🎼 Ноти в ABC формат:</h2>
+    <div class="abc-content" id="abcNotation">
+X:1
+T:Честит 60-ти Рожден Ден - Силен Джаз
+M:4/4
+L:1/8
+Q:180
+K:Cmaj
+%%MIDI program 1 56
+%%MIDI program 2 57
+%%MIDI program 3 58
+%%MIDI program 4 60
+%%MIDI program 5 33
+%%MIDI program 6 118
+
+V:1 clef=treble
+V:2 clef=treble
+V:3 clef=treble
+V:4 clef=treble
+V:5 clef=bass
+V:6 clef=perc
+
+V:1
+|: z8 | z8 | c4 e g c | e2 d c B | A4 F A d | c2 B A G | F4 D F A | d2 c B A |
+  G4 E G c | c2 z z4 | c4 e g c | e2 d c B | A4 F A d | c2 B A G | F2 D F A | d2 c B A |
+
+V:2
+|: z8 | z8 | e4 g c' e | g2 f e d | c4 A c e | d2 c B A | B4 G B d | e2 d c B |
+  A4 F A c | c2 z z4 | e4 g c' e | g2 f e d | c4 A c e | d2 c B A | B2 G B d | e2 d c B |
+
+V:4
+|: z8 | z8 | "^C7"C,E,G,c | "^F7"F,A,c,f | "^Dm7"D,F,A,d | "^G7"G,B,d,g | "^C7"C,E,G,c | "^F7"F,A,c,f |
+  "^C7"C,E,G,c | "^G7"G,B,d,g | "^C7"C,E,G,c | "^F7"F,A,c,f | "^Dm7"D,F,A,d | "^G7"G,B,d,g | "^C7"C,E,G,c | "^F7"F,A,c,f |
+
+V:5
+|: z8 | z8 | C,2 E, G, C | F,2 A, C F | D,2 F, A, D | G,2 B, D G | C,2 E, G, C | F,2 A, C F |
+  C,2 E, G, C | G,2 B, D G | C,2 E, G, C | F,2 A, C F | D,2 F, A, D | G,2 B, D G | C,2 E, G, C | F,2 A, C F |
+
+V:1
+G4 B d g | f2 e d c | B4 d f b | a2 g f e | d4 f a d | c2 B A G | F4 A c f | e2 d c B |
+
+V:2
+B4 d f b | a2 g f e | d4 f a d | c2 B A G | F4 A c f | e2 d c B | A4 c e g | f2 e d c |
+
+V:4
+"^G7"G,B,d,g | "^C7"C,E,G,c | "^F7"F,A,c,f | "^Bb7"Bb,d,f,b | "^Dm7"D,F,A,d | "^G7"G,B,d,g | "^C7"C,E,G,c | "^F7"F,A,c,f |
+
+V:5
+G,2 B, D G | C,2 E, G, C | F,2 A, C F | Bb,2 D F Bb | D,2 F, A, D | G,2 B, D G | C,2 E, G, C | F,2 A, C F |
+
+V:1
+c4 e g c | e2 d c B | A4 F A d | c2 B A G | F4 D F A | d2 c B A | G4 E G c | c2 z z4 |
+
+V:2
+e4 g c' e | g2 f e d | c4 A c e | d2 c B A | B4 G B d | e2 d c B | A4 F A c | c2 z z4 |
+
+V:4
+"^C7"C,E,G,c | "^F7"F,A,c,f | "^Dm7"D,F,A,d | "^G7"G,B,d,g | "^C7"C,E,G,c | "^F7"F,A,c,f | "^C7"C,E,G,c | "^G7"G,B,d,g |
+
+V:5
+C,2 E, G, C | F,2 A, C F | D,2 F, A, D | G,2 B, D G | C,2 E, G, C | F,2 A, C F | C,2 E, G, C | G,2 B, D G |
+
+V:1
+c8 | z8 | z8 | z8 ||
+V:2
+c8 | z8 | z8 | z8 ||
+V:4
+"^C7"C,E,G,c | z8 | z8 | z8 ||
+V:5
+C,8 | z8 | z8 | z8 ||
+    </div>
+    
+    <button onclick="copyToClipboard()" style="background-color: #4CAF50; padding: 12px 25px; font-size: 1em; border: none; border-radius: 5px; color: white; cursor: pointer; margin: 20px 0;">
+        📋 Копирай нотите
+    </button>
+    
+    <p style="margin-top: 30px; color: #666;">
+        Ако имате проблеми, вижте <strong>INSTRUCTIONS_BG.md</strong> за детайлни стъпки.
+    </p>
+    
+    <script>
+        function copyToClipboard() {
+            const abcText = document.getElementById('abcNotation').innerText;
+            navigator.clipboard.writeText(abcText).then(() => {
+                alert('✅ Нотите бяха копирани в клипборда!');
+            }).catch(err => {
+                alert('❌ Грешка при копиране: ' + err);
+            });
+        }
+    </script>
+</body>
+</html>
